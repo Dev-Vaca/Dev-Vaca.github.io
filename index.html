@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hi there, I'm Julio Vaca <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Intro Section -->
+            <div class="section intro">
+                <p>
+                    I am a <b>Software Engineering Student</b> at UDC. <br>
+                    C, C++, and Kotlin are the programming languages I am good at. <br>
+                    I love to learn and build something new, productive, innovative, and creative.
+                </p>
+            </div>
+    
+            <!-- Interests Section -->
+            <div class="section interests">
+                <h2>My Interests</h2>
+                <ul>
+                    <li>🌱 I’m currently learning:
+                        <ul>
+                            <li>Kotlin</li>
+                            <li>HTML</li>
+                        </ul>
+                    </li>
+                    <li>🤖📱 I’m looking to become a great Android developer.</li>
+                    <li>✔ Ask me about anything, I am happy to help! 🥰</li>
+                </ul>
+            </div>
+    
+            <!-- Outside Tech Section -->
+            <div class="section outside-tech">
+                <h2>Outside Tech</h2>
+                <p>🎮 I love to play videogames, ⚽ practice some sports, 🎵 listen to music, and 🌴 explore nature outdoors.</p>
+            </div>
+    
+            <!-- New Projects Section -->
+            <div class="section projects">
+                <h2>🚀 Projects</h2>
+                <div class="project-list">
+                    <div class="project-card">
+                        <h3>Project 1: Portfolio Website</h3>
+                        <p>A responsive personal portfolio website to showcase my skills and projects.</p>
+                        <a href="https://github.com/Dev-Vaca/portfolio" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 2: Android ToDo App</h3>
+                        <p>A Kotlin-based Android app to manage daily tasks with notifications and reminders.</p>
+                        <a href="https://github.com/Dev-Vaca/todo-app" target="_blank">View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 3: Weather App</h3>
+                        <p>A weather forecasting app using OpenWeather API with dynamic UI updates.</p>
+                        <a href="https://github.com/Dev-Vaca/weather-app" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Contact Section -->
+            <div class="section contact">
+                <h2>📫 Reach out to me at:</h2>
+                <a href="mailto:jvaca1309@gmail.com" class="email-link">jvaca1309@gmail.com</a>
+            </div>
+        </div>
+
+        <button class="chatbot-button" onclick="toggleChat()">
+            🤖
+        </button>
+        
+        <!-- Chatbot Popup Window -->
+        <div id="chatPopup" class="chat-popup">
+            <div class="chat-header">
+                <h2>Chatbot 🤖</h2>
+                <button onclick="toggleChat()" class="close-btn">&times;</button>
+            </div>
+            <div class="chat-body" id="chatBody">
+                <div class="message bot">Esta es una version de prueba no funcional de momento! 😊</div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" id="userInput" placeholder="Escribe un mensaje..." />
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer>
+        <h2>Contact</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                LinkedIn
+            </a>
+            <a href="https://github.com/Dev-Vaca" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+                GitHub
+            </a>
+            <a href="https://www.instagram.com/juliovacag/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
+                Instagram
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
